@@ -5,15 +5,23 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "react": "16.3.2",
     "react-dom": "16.3.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "react-styleguidist": "^9.1.16",
+    "webpack": "^4.40.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
   }
 }
