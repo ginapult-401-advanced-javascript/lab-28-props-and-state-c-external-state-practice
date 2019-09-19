@@ -8,7 +8,7 @@
 * [front-end](https://lab-28-props-and-state.netlify.com/)
 
 #### Documentation
-* [jsdoc](https://ginapult-deploymentworkshop.herokuapp.com/docs/) (Server assignments)
+* [styleguidist](n/a)
 
 #### UML
 ![UML Diagram](lab-28-uml.jpg)
